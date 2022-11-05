@@ -7,7 +7,8 @@ module.exports = {
         .setDescription('Returns the ping of the bot.'),
     async execute(interaction, client) {
         const message = await interaction.deferReply({
-            fetchReply: true
+            fetchReply: true,
+            ephemeral: true
         });
 
         const clientPing = message.createdTimestamp - interaction.createdTimestamp
