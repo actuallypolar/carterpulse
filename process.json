@@ -1,13 +1,12 @@
 {
-    "apps": [
-      {
-        "name": "nicknamebuttons",
-        "cwd": "/home/ubuntu/nicknamebuttons",
-        "script": "npm",
-        "args": "run test",
-        "log_date_format": "YYYY-MM-DD HH:mm:ss.SSS",
-        "exp_backoff_restart_delay": 2500
-      }
-    ]
-  }
-  
+  "apps": [
+    {
+      "name": "nicknamebuttons",
+      "cwd": "/home/ubuntu/nicknamebuttons",
+      "script": "npm",
+      "args": "run test",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss.SSS",
+      "exp_backoff_restart_delay": 2500
+    }
+  ]
+}
